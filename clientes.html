@@ -36,7 +36,7 @@
                             <a class="nav-link active" aria-current="page" href="/index.html">Agregar cliente</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" onclick="mostrarClientes()" href="/clientes.html">Ver clientes</a>
+                            <a class="nav-link" onclick="mostrarClientes()" href="#">Ver clientes</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -58,54 +58,8 @@
         </div>
     </nav>
 
-    <main>
-        <div class="container">
-            <div class="box-container">
-                <div class="box">
-                    <form class="row g-3" id="myForm">
-                        <div class="col-md-4">
-                            <label for="validationDefault01" class="form-label">Nombre completo</label>
-                            <input type="text" class="form-control" id="validationDefault01" required=""
-                                name="nombreCompleto" />
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationDefault02" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" id="validationDefault02" required=""
-                                name="apellido" />
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationDefaultUsername" class="form-label">Telefono</label>
-                            <div class="input-group">
-                                <input type="text" class="form-control" id="validationDefaultUsername"
-                                    aria-describedby="inputGroupPrepend2" required="" name="telefono" />
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <label for="validationDefault03" class="form-label">Seguro</label>
-                            <input type="text" class="form-control" id="validationDefault03" required=""
-                                name="seguro" />
-                        </div>
-                        <div class="col-md-4">
-                            <label for="validationDefault05" class="form-label">Vencimiento poliza</label>
-                            <input type="date" class="form-control" id="validationDefault05" required=""
-                                name="vencimientoPoliza" />
-                        </div>
-                        <div class="col-md-3">
-                            <label for="validationDefault04" class="form-label">Estado</label>
-                            <select class="form-select" id="validationDefault04" required="" name="estado">
-                                <option selected="" disabled="" value="">Se renueva</option>
-                                <option>Si</option>
-                                <option>No</option>
-                            </select>
-                        </div>
-                        <div class="col-3 mx-auto">
-                            <button class="btn btn-primary" type="submit">Guardar</button>
+    <main id="clientesContainer" class="centered-container">
 
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
     </main>
 
     <footer class="footer">

@@ -19,13 +19,12 @@
     padding: 2vw;
 }
 
-h2 {
-    text-align: center;
-    font-size: 1.5em;
-}
-
-input {
-    margin-bottom: 2vw;
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* Opcional, ajusta la altura según tus necesidades */
 }
 
 /* footer */
